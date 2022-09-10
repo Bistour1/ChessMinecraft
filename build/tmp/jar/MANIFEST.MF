@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: chess
+Specification-Vendor: chesssareus
+Specification-Version: 1
+Implementation-Title: ChessMinecraft
+Implementation-Version: 1.19.2-1.0.0
+Implementation-Vendor: chesssareus
+Implementation-Timestamp: 2022-09-10T10:24:54+0200
+
