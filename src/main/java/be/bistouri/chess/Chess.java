@@ -1,6 +1,7 @@
 package be.bistouri.chess;
 
 import be.bistouri.chess.init.BlockInit;
+import be.bistouri.chess.listener.CustomListener;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.Item;
@@ -35,7 +36,6 @@ public class Chess
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
         // Register the Deferred Register to the mod event bus so blocks get registered
         BlockInit.BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
